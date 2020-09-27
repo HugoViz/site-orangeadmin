@@ -37,7 +37,7 @@ background-attachment: fixed;
 background-size: cover;">
 
 <ul>
-  <li><a class="active" href="accueil.php"><img src="../site internet/images/orangeadmin_logo.png"
+  <li><a class="active" href="accueil.php"><img src="../code GIT/images/orangeadmin_logo.png"
     width="60" height="81"></a></li>
     <div class=gestion>Gestion des employés</div>
 </ul>

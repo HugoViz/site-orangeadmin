@@ -3,64 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Optional theme -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <title>accueil</title>
+    <link rel="stylesheet" type="text/css" href="css/test.css">
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: black;
+}
+</style>
 </head>
-<body>
+<body style="background-image: url('images/Laptop.jpg'); background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;">
 <?php
     if (isset($_POST['mot_de_passe']) AND $_POST['mot_de_passe'] ==  "toto")
     {
     // On affiche les codes
-    ?>
-l
-l
-l
-l
-l
-l
-    <nav class="navbar-dark bg-dark">
-  <a class="navbar-brand" href="#"><img src="../images/index.png" alt=""></a>
-l
-l
-l
-l
-l
-l
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" id="navbar" role="button" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbar">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-
-        <h1>bienvenue</h1>
-        <p>employé d'orange</p>
-
-        <?php
     }
     else // Sinon, on affiche un message d'erreur
     {
@@ -68,8 +48,15 @@ l
     }
     ?>
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-    <script src="js/jquery-3.5.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+<ul>
+  <li><a class="active" href="accueil.php"><img src="../code GIT/images/orangeadmin_logo.png"
+    width="60" height="81"></a></li>
+</ul>
+<div id="container">
+   <div id="main"></div>
+   <div id="footer">Designed by HV & AB<div style=padding-left:92%>© Orange 2020</div></div>
+
+</div>
+
 </body>
 </html>

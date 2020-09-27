@@ -32,11 +32,11 @@ li a:hover:not(.active) {
 }
 </style>
 </head>
-<body style="background-image: url('images/Gestion\ employé_1.png'); background-repeat: no-repeat;
+<body style="background-image: url('images/Statistiques\ 1.jpg'); background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;">
 <ul>
-  <li><a class="active" href="accueil.php"><img src="../site internet/images/orangeadmin_logo.png"
+  <li><a class="active" href="accueil.php"><img src="../code GIT/images/orangeadmin_logo.png"
     width="60" height="81"></a></li>
 
 </ul>
