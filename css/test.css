@@ -18,6 +18,7 @@ html, body {
 } 
 
 .gestion {
+    position: relative;
     color: orangered;
     padding-left:45%;
 }

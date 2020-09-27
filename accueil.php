@@ -52,6 +52,12 @@ background-size: cover;">
   <li><a class="active" href="accueil.php"><img src="../code GIT/images/orangeadmin_logo.png"
     width="60" height="81"></a></li>
 </ul>
+<div style="position:absolute; left:20%; top:50%;"><a class="active" href="gestion_employés.php"><img src="../code GIT/images/Avatar unisexe.jpg"
+    width="100" height="100" padding=></a></div>
+<div style="position:absolute; left:46.5%; top:50%;"><a class="active" href="espace_licenciement.php"><img src="../code GIT/images/Licenciement.jpg"
+    width="100" height="100" padding=></a></div>
+<div style="position:absolute; left:72.5%; top:50%;"><a class="active" href="statistiques.php"><img src="../code GIT/images/Stats.jpg"
+    width="100" height="100" padding=></a></div>
 <div id="container">
    <div id="main"></div>
    <div id="footer">Designed by HV & AB<div style=padding-left:92%>© Orange 2020</div></div>
