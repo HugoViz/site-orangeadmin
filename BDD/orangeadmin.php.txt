@@ -1,0 +1,33 @@
+<?php
+/**
+ * Export to PHP Array plugin for PHPMyAdmin
+ * @version 5.0.2
+ */
+
+/**
+ * Database `orangeadmin`
+ */
+
+/* `orangeadmin`.`employé` */
+$employé = array(
+  array('employé_ID' => '1','Nom' => 'Balkany','Prénom' => 'Patrick'),
+  array('employé_ID' => '2','Nom' => 'Sardou','Prénom' => 'Michel'),
+  array('employé_ID' => '3','Nom' => 'Chatterton','Prénom' => 'Alisée'),
+  array('employé_ID' => '4','Nom' => 'Poli','Prénom' => 'Robin'),
+  array('employé_ID' => '5','Nom' => 'Baratheon','Prénom' => 'Robert')
+);
+
+/* `orangeadmin`.`fiche employé` */
+$fiche_employé = array(
+  array('employé_ID' => '1','poste' => 'Comptable','service' => 'Comptabilité','date_de_naissance' => '1979-09-16','tel' => '0632493278','email' => 'patbalka@levallois.fr','contrat' => 'CDI','adresse' => '8 rue de la richesse, 92300, Levallois Perret, Ile de france, France','salaire' => '18000','dernier_salaire' => '18000','prochain_salaire' => '18000','nom' => 'Balkany','prénom' => 'Patrick','age' => '41'),
+  array('employé_ID' => '2','poste' => 'DRH','service' => 'Ressources Humaines','date_de_naissance' => '1960-09-03','tel' => '0632346373','email' => 'sardou_off@wanadoo.fr','contrat' => 'Alternance','adresse' => '23 avenue des coquelicots fleuris, 75009, Paris, Ile de france, France','salaire' => '12340','dernier_salaire' => '12340','prochain_salaire' => '12340','nom' => 'Sardou','prénom' => 'Michel','age' => '60'),
+  array('employé_ID' => '3','poste' => 'Apprenti responsable qualité','service' => 'Qualité','date_de_naissance' => '2000-05-06','tel' => '0743459083','email' => 'alizéedu23bis@hotmail.fr','contrat' => 'Alternance','adresse' => '23 bis rue des potiers, 86000, Poitiers, France','salaire' => '1350','dernier_salaire' => '1350','prochain_salaire' => '1350','nom' => 'Chatterton','prénom' => 'Alisée','age' => '20'),
+  array('employé_ID' => '4','poste' => 'Technicien','service' => 'Technicien Info','date_de_naissance' => '1994-03-24','tel' => '0783746343','email' => 'robinpoli_pro@gmail.com','contrat' => 'CDD','adresse' => '1 boulevard des pelles, 78500, Limay, France','salaire' => '2900','dernier_salaire' => '2900','prochain_salaire' => '2900','nom' => 'Poli','prénom' => 'Robin','age' => '26'),
+  array('employé_ID' => '5','poste' => 'Hôte','service' => 'Accueil','date_de_naissance' => '1962-02-25','tel' => '0737982347','email' => 'robbarath@gmail.com','contrat' => 'CDI','adresse' => '2 Avenue de Chateau Noir, 10300, Le Mur, France','salaire' => '6700','dernier_salaire' => '6700','prochain_salaire' => '6700','nom' => 'Baratheon','prénom' => 'Robert','age' => '58')
+);
+
+/* `orangeadmin`.`utilisateur` */
+$utilisateur = array(
+  array('user_ID' => '1','email' => 'patbalka@levallois.fr','password' => '4rGEnT'),
+  array('user_ID' => '2','email' => 'sardou_off@wanadoo.fr','password' => 'Th€V0iCE')
+);
