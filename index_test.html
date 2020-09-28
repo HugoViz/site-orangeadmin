@@ -1,174 +1,193 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<style>
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #000000;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 23px 10px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
-.active {
-    background-color: orangered;
-}
-</style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #000000;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 23px 10px;
+            text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+        
+        .active {
+            background-color: orangered;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="css/test.css">
 </head>
+
 <body>
+
     <body background="images/Laptop.jpg">
-<ul>
-  <li><a class="active" href="#orange">orange</a></li>
+        <ul>
+            <li><a class="active" href="#orange">orange</a></li>
 
-</ul>
-<form>
-  <form class="form-horizontal">
-    <fieldset>
-    
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="textinput"></label>  
-      <div class="col-md-2">
-      <input id="textinput" name="Prénom Nom" type="text" placeholder="Prénom Nom" class="form-control input-md">
-        
-      </div>
-    </div>
-    
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="textinput"></label>  
-      <div class="col-md-1">
-      <input id="textinput" name="Age" type="text" placeholder="Age" class="form-control input-md">
-        
-      </div>
-    </div>
-    
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="textinput"></label>  
-      <div class="col-md-1">
-      <input id="textinput" name="Sexe" type="text" placeholder="Sexe" class="form-control input-md">
-        
-      </div>
-    </div>
-    
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="textinput"></label>  
-      <div class="col-md-2">
-      <input id="textinput" name="Service" type="text" placeholder="Service" class="form-control input-md">
-        
-      </div>
-    </div>
-    
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-3 control-label" for="textinput"></label>  
-      <div class="col-md-3">
-      <input id="textinput" name="Poste" type="text" placeholder="Poste" class="form-control input-md">
-        
-      </div>
-    </div>
-    
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="textinput"></label>  
-      <div class="col-md-2">
-      <input id="textinput" name="Date de naissance" type="text" placeholder="Date de naissance" class="form-control input-md">
-        
-      </div>
-    </div>
-    
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="textinput"></label>  
-      <div class="col-md-3">
-      <input id="textinput" name="Numéro de sécurité sociale" type="text" placeholder="Numéro de sécurité sociale" class="form-control input-md">
-        
-      </div>
-    </div>
+        </ul>
+        <div class="row">
+            <div class="col-5 image">
+                <img src="images/Avatar unisexe.jpg " height="200px " width="200x " />
+                <!-- Text input-->
+            </div>
+            <div id="test " class="form-group col-7 row test">
+                <div>
 
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="textinput"></label>  
-      <div class="col-md-2">
-      <input id="textinput" name="Tel" type="text" placeholder="Tel" class="form-control input-md">
-        
-      </div>
-    </div>
-    
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="textinput"></label>  
-      <div class="col-md-2">
-      <input id="textinput" name="Mail" type="text" placeholder="Mail" class="form-control input-md">
-        
-      </div>
-    </div>
-    
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="textinput"></label>  
-      <div class="col-md-4">
-      <input id="textinput" name="Adresse" type="text" placeholder="Adresse" class="form-control input-md">
-        
-      </div>
-    </div>
-    
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="textinput"></label>  
-      <div class="col-md-1">
-      <input id="textinput" name="Contrat de travail" type="text" placeholder="Contrat de travail" class="form-control input-md">
-        
-      </div>
-    </div>
-    
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="textinput"></label>  
-      <div class="col-md-2">
-      <input id="textinput" name="Salaire" type="text" placeholder="Salaire" class="form-control input-md">
-        
-      </div>
-    </div>
-    
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="textinput"></label>  
-      <div class="col-md-2">
-      <input id="textinput" name="Dernier Salaire" type="text" placeholder="Dernier Salaire" class="form-control input-md">
-        
-      </div>
-    </div>
-    
-    <!-- Text input-->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="textinput"></label>  
-      <div class="col-md-2">
-      <input id="textinput" name="Prochain Salaire" type="text" placeholder="Prochain Salaire" class="form-control input-md">
-        
-      </div>
-    </div>
-  </form>
-  
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="js/bootstrap.js">
-</body>
+                    <label class="col-md-4 control-label" for="textinput "></label>
+                    <div class="col-md-2">
+                        <input id="textinput " name="Prénom Nom " type="text " placeholder="Prénom Nom " class="form-control input-md position" style="width: 200px">
+
+                    </div>
+                </div>
+                <!-- Text input-->
+                <div class="form-group row ">
+                    <label class="col-md-4 control-label " for="textinput "></label>
+                    <div class="col-md-1 ">
+                        <input id="textinput " name="Age " type="text " placeholder="Age " class="form-control input-md position2" style="width: 100px">
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <form>
+            <form class="form-horizontal ">
+                <fieldset>
+
+
+
+
+
+                    <!-- Text input-->
+                    <div class="form-group row ">
+                        <label class="col-md-4 control-label " for="textinput "></label>
+                        <div class="col-md-1 ">
+                            <input id="textinput " name="Sexe " type="text " placeholder="Sexe " class="form-control input-md ">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group row ">
+                        <label class="col-md-4 control-label " for="textinput "></label>
+                        <div class="col-md-2 ">
+                            <input id="textinput " name="Service " type="text " placeholder="Service " class="form-control input-md ">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group row ">
+                        <label class="col-md-3 control-label " for="textinput "></label>
+                        <div class="col-md-3 ">
+                            <input id="textinput " name="Poste " type="text " placeholder="Poste " class="form-control input-md ">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group row ">
+                        <label class="col-md-4 control-label " for="textinput "></label>
+                        <div class="col-md-2 ">
+                            <input id="textinput " name="Date de naissance " type="text " placeholder="Date de naissance " class="form-control input-md ">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group row ">
+                        <label class="col-md-4 control-label " for="textinput "></label>
+                        <div class="col-md-3 ">
+                            <input id="textinput " name="Numéro de sécurité sociale " type="text " placeholder="Numéro de sécurité sociale " class="form-control input-md ">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group row ">
+                        <label class="col-md-4 control-label " for="textinput "></label>
+                        <div class="col-md-2 ">
+                            <input id="textinput " name="Tel " type="text " placeholder="Tel " class="form-control input-md ">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group row ">
+                        <label class="col-md-4 control-label " for="textinput "></label>
+                        <div class="col-md-2 ">
+                            <input id="textinput " name="Mail " type="text " placeholder="Mail " class="form-control input-md ">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group row ">
+                        <label class="col-md-4 control-label " for="textinput "></label>
+                        <div class="col-md-4 ">
+                            <input id="textinput " name="Adresse " type="text " placeholder="Adresse " class="form-control input-md ">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group row ">
+                        <label class="col-md-4 control-label " for="textinput "></label>
+                        <div class="col-md-1 ">
+                            <input id="textinput " name="Contrat de travail " type="text " placeholder="Contrat de travail " class="form-control input-md ">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group row ">
+                        <label class="col-md-4 control-label " for="textinput "></label>
+                        <div class="col-md-2 ">
+                            <input id="textinput " name="Salaire " type="text " placeholder="Salaire " class="form-control input-md ">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group row ">
+                        <label class="col-md-4 control-label " for="textinput "></label>
+                        <div class="col-md-2 ">
+                            <input id="textinput " name="Dernier Salaire " type="text " placeholder="Dernier Salaire " class="form-control input-md ">
+
+                        </div>
+                    </div>
+
+                    <!-- Text input-->
+                    <div class="form-group row ">
+                        <label class="col-md-4 control-label " for="textinput "></label>
+                        <div class="col-md-2 ">
+                            <input id="textinput " name="Prochain Salaire " type="text " placeholder="Prochain Salaire " class="form-control input-md ">
+
+                        </div>
+                    </div>
+            </form>
+
+            <link rel="stylesheet " type="text/css " href="css/bootstrap.css ">
+            <link rel="stylesheet " type="text/css " href="js/bootstrap.js ">
+    </body>
+
 </html>

@@ -40,11 +40,34 @@ background-size: cover;">
     width="60" height="81"></a></li>
 
 </ul>
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textarea"></label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="textarea" name="Raison du licenciement">Ecrire la raison du licenciement...</textarea>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="singlebutton"></label>
+  <div class="col-md-4">
+    <button id="singlebutton" name="Licencier" class="btn btn-primary">Licencier</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
 <div id="container">
    <div id="main"></div>
    <div id="footer">Designed by HV & AB<div style=padding-left:92%>© Orange 2020</div></div>
 
 </div>
-
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="js/bootstrap.js">
 </body>
 </html>
