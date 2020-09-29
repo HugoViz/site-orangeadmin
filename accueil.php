@@ -49,7 +49,7 @@ background-size: cover;">
     ?>
 
 <ul>
-  <li><a class="active" href="accueil.php"><img src="../code GIT/images/orangeadmin_logo.png"
+  <li><a class="active" href="accueil.php"><img src="images/orangeadmin_logo.png"
     width="60" height="81"></a></li>
 </ul>
 <div style="position:absolute; left:20%; top:50%;"><a class="active" href="gestion_employés.php"><img src="../code GIT/images/Avatar unisexe.jpg"

@@ -36,7 +36,7 @@ li a:hover:not(.active) {
 background-attachment: fixed;
 background-size: cover;">
 <ul>
-  <li><a class="active" href="accueil.php"><img src="../code GIT/images/orangeadmin_logo.png"
+  <li><a class="active" href="accueil.php"><img src="images/orangeadmin_logo.png"
     width="60" height="81"></a></li>
 
 </ul>
