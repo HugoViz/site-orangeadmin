@@ -13,7 +13,6 @@
     }
     
     #footer {
-        position: absolute;
         bottom: 0;
         /* on le colle en bas */
         width: 100%;
@@ -26,7 +25,8 @@
     .gestion {
         position: relative;
         color: orangered;
-        padding-left: 45%;
+        padding-left: 34%;
+        margin-top: 1.8%;
     }
     
     .image {
@@ -48,7 +48,7 @@
     }
     
     .position_service {
-        margin-left: 22%;
+        margin-left: 20%;
         margin-top: 20px;
     }
     
@@ -105,7 +105,7 @@
     }
     
     .position_search {
-        margin-top: -14px
+        margin-top: 5px;
     }
     
     .position_button1 {
