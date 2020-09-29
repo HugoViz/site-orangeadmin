@@ -43,7 +43,7 @@ background-size: cover;">
 </ul>
 <div id="container">
    <div id="main"></div>
-   <div id="footer">Designed by HV & AB<div style=padding-left:92%>© Orange 2020</div></div>
+   <div id="footer">Designed by HV & AB & YB<div style=padding-left:92%>© Orange 2020</div></div>
 </div>
 
 </body>
