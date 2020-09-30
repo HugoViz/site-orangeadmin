@@ -2,7 +2,6 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="css/test.css">
-    <link rel="stylesheet" type="text/css" href="css/test.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <style>
@@ -43,7 +42,7 @@ background-size: cover;">
             <a class="active" href="accueil.php"><img src="images/orangeadmin_logo.png" width="60" height="81"></a>
         </li>
         <div class=gestion>
-            <h1>Gestion des employés</h1>
+            <h1>Editer une fiche employé</h1>
         </div>
     </ul>
     </ul>
@@ -51,7 +50,7 @@ background-size: cover;">
         <fieldset class=position_buttons>
             <!-- Search input-->
             <div class="form-group">
-                <div class="col-md-13">
+                <div>
                     <input id="searchinput" name="searchinput" type="search" placeholder="Rechercher un employé..." class="form-control input-md position_search" style="border-color: white; color:black">
                 </div>
             </div>
@@ -144,14 +143,19 @@ background-size: cover;">
 
                         </div>
                     </div>
+                    
                 </div>
 
         </form>
-
+<div class="form-group position_button_edit">
+                        <div>
+                            <a id="singlebutton" name="Save" class="btn btn-primary active" href="gestion_employés.php" style="width: 250px;background-color: orangered;border-color:orangered">Sauvegarder les changements</a>
+                        </div>
+                    </div>
         <div id="container">
-            <div id="footer" class="row" style="margin: 0">
+            <div id="footer" class="row" style="margin: 0; height: 2vw">
                 <div class="col-6">Designed by HV & AB & YB</div>
-                <div class="col-6" style="text-align: end;" margin-top=100px>© Orange 2020</div>
+                <div class="col-6" style="text-align: end;" margin-top= 00px>© Orange 2020</div>
             </div>
         </div>
 

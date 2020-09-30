@@ -121,3 +121,7 @@
     .position_buttons {
         margin-bottom: -2%
     }
+    
+    .position_button_edit {
+        text-align: center;
+    }
