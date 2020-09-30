@@ -72,9 +72,24 @@ background-size: cover;">
                                         <option value="5">2015</option>
                                         <option value="6">2014</option>
                                     </select>
+                                    
                                 </div>
+                        <form class="form-horizontal">
+            <fieldset>
+
+<!-- Form Name -->
+<legend style= "text-align: center; margin-right: 100px; width: 200px; color: white; background-color: black">Dépense annuelle brute du service</legend>
+  <div class="col-md-4">
+  <input style= "width: 100px; font-size: 50px; text-align: center"id="textinput" name="stats" type="text" placeholder="..." disabled class="form-control input-md">
+                            </div>
+<legend style= "text-align: center; margin-right: 100px; width: 200px; color: white; background-color: black">Dépense annuelle brute du service</legend>
+  <div class="col-md-4">
+  <input style= "width: 100px; font-size: 50px; text-align: center"id="textinput" name="stats" type="text" placeholder="..." disabled class="form-control input-md">
                             </div>
                     </div>
+
+                </div>
+                    
 
             </fieldset>
                         </form>
@@ -100,10 +115,14 @@ background-size: cover;">
 <fieldset>
 
 <!-- Form Name -->
-<legend style= "text-align: center; width: 375px; color: white; background-color: black">Dépense annuelle brute du service</legend>
+<legend style= "text-align: center; margin-right: 100px; width: 200px; color: white; background-color: black">Dépense annuelle brute du service</legend>
   <div class="col-md-4">
-  <input style= "width: 400px; font-size: 50px; text-align: center"id="textinput" name="stats" type="text" placeholder="..." disabled class="form-control input-md">
+  <input style= "width: 100px; font-size: 50px; text-align: center"id="textinput" name="stats" type="text" placeholder="..." disabled class="form-control input-md">
   </div>
+  <legend style= "text-align: center; margin-right: 100px; width: 200px; color: white; background-color: black">Dépense annuelle brute du service</legend>
+  <div class="col-md-4">
+  <input style= "width: 100px; font-size: 50px; text-align: center"id="textinput" name="stats" type="text" placeholder="..." disabled class="form-control input-md">
+                            </div>
 </div>
 
 </fieldset>
