@@ -125,3 +125,15 @@
     .position_button_edit {
         text-align: center;
     }
+    
+    .position_selec_mois {
+        margin-top: 30px;
+    }
+    
+    .brut_service {
+        text-align: center;
+        margin-left: 60px;
+        width: 200px;
+        color: white;
+        background-color: black;
+    }
