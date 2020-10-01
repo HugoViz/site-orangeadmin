@@ -10,9 +10,10 @@ if(!empty($_SESSION['id']))
     <!DOCTYPE html>
     <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/test.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/test.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
         
     <style>
     ul {
@@ -47,20 +48,16 @@ if(!empty($_SESSION['id']))
     <body style="background-image: url('images/Laptop.jpg'); background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;">
-    <?php
-        if (isset($_POST['mot_de_passe']) AND $_POST['mot_de_passe'] ==  "toto")
-        {
-        // On affiche les codes
-        }
-        else // Sinon, on affiche un message d'erreur
-        {
-            echo '<p>Mot de passe incorrect</p>';
-        }
-        ?>
 
     <ul>
     <li><a class="active" href="accueil.php"><img src="images/orangeadmin_logo.png"
         width="60" height="81"></a></li>
+                            <!-- Button -->
+                    <div class="form-group position_button1">
+                        <div class="col-md-5">
+                            <a id="singlebutton" name="Deconnexion" class="btn btn-primary active" href="deconnexion.php" style="width: 150px;background-color: orangered;border-color: orangered; margin-top: 10%; margin-left: 195%;">Deconnexion</a>
+                        </div>
+                    </div>
     </ul>
     <div style="position:absolute; left:20%; top:50%;"><a class="active" href="gestion_employés.php"><img src="images/Avatar unisexe.jpg"
         width="100" height="100" padding=></a></div>

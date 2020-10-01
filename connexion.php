@@ -12,13 +12,12 @@ if(isset($_POST['connexion']))
         $requser = $bdd->prepare("SELECT * FROM membres WHERE email = ? AND password = ?");
         $requser->execute(array($emailconnect, $passwordconnect));
 		$userexist = $requser->rowCount();
-		die($userexist);
         if($userexist == 1)
         {
             $userinfo = $requser->fetch();
             $_SESSION['id'] = $userinfo['id'];
             $_SESSION['email'] = $userinfo['email'];
-            header("Location: profil.php?id=".$_SESSION['id']);
+            header("Location: accueil.php");
         }
         else
         {

@@ -17,6 +17,7 @@ if(isset($_POST['inscription']))
 
 		$insertmbr = $bdd->prepare("INSERT INTO membres(email, password) VALUES(?, ?)");
 		$insertmbr->execute(array($email, $password));
+		header("location: connexion.php");
 	}
     else
     {

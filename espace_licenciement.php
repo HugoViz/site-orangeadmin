@@ -57,7 +57,13 @@ background-size: cover;">
         <div class=gestion>
             <h1>Espace Licenciement</h1>
         </div>
-    </ul>
+        
+                                   <!-- Button -->
+                                   <div class="form-group position_button1" style="margin-bottom:0">
+                        <div class="col-3">
+                            <a id="singlebutton" name="Deconnexion" class="btn btn-primary active" href="deconnexion.php" style="width: 150px;background-color: orangered;border-color: orangered; margin-left: 356%; margin-top: -60%;">Deconnexion</a>
+                        </div>
+                    </div>
     </ul>
     <form class="form-horizontal">
         <fieldset class=position_buttons>
