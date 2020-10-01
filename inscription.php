@@ -1,6 +1,6 @@
 <?php
 
-$bdd = new PDO('mysql:host=localhost;dbname=espace_membre', 'root', 'admin');
+$bdd = new PDO('mysql:host=localhost;dbname=espace_membre', 'admin', 'admin');
 
 if(isset($_POST['inscription']))
 {
