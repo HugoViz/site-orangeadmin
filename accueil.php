@@ -66,7 +66,7 @@ if(!empty($_SESSION['id']))
     <div style="position:absolute; left:72.5%; top:50%;"><a class="active" href="statistiques.php"><img src="images/Stats.jpg"
         width="100" height="100" padding=></a></div>
         <div id="container">
-                <div style="position: absolute" id="footer" class="row" style="margin: 0; height: 2vw">
+                <div style="position: absolute; margin-left:0" id="footer" class="row" style="margin: 0; height: 2vw">
                     <div class="col-6">Designed by HV & AB & YB</div>
                     <div class="col-6" style="text-align: end;" margin-top=00px>© Orange 2020</div>
                 </div>
