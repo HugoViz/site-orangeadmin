@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+$bdd = new PDO('mysql:host=localhost;dbname=espace_membre', 'root', 'admin');
+
+if(!empty($_SESSION['id']))
+{
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -54,7 +63,7 @@ background-size: cover;">
             <!-- Search input-->
             <div class="form-group">
                 <div class="col-md-12">
-                    <input style=opacity:0.66 id="searchinput" name="searchinput" type="search" placeholder="Rechercher un employé..." class="form-control input-md position_search" style="border-color: white; color:black">
+                    <input style=opacity:0.66 id="searchinput" name="searchinput" type="search" placeholder="Rechercher un poste ou un service..." class="form-control input-md position_search" style="border-color: white; color:black">
                 </div>
             </div>
         </fieldset>
@@ -68,13 +77,13 @@ background-size: cover;">
         <div class="form-group col-7" style="width: 100vw;">
             <div>
                 <div class="col-12">
-                    <input disabled id="textinput " name="Prénom Nom " type="text " placeholder="Prénom Nom " class="form-control input-md position_nom_prénom" style="width: 200px">
+                    <input id="textinput " name="Prénom Nom " type="text " placeholder="Prénom Nom " class="form-control input-md position_nom_prénom" style="width: 200px">
                 </div>
                 <div class="col-12">
-                    <input disabled id="textinput " name="Age " type="text " placeholder="Age " class="form-control input-md position_age" style="width: 100px">
+                    <input id="textinput " name="Age " type="text " placeholder="Age " class="form-control input-md position_age" style="width: 100px">
                 </div>
                 <div class="col-12">
-                    <input disabled id="textinput " name="Sexe " type="text " placeholder="Sexe " class="form-control input-md position_sexe" style="width: 100px">
+                    <input id="textinput " name="Sexe " type="text " placeholder="Sexe " class="form-control input-md position_sexe" style="width: 100px">
 
                 </div>
             </div>
@@ -94,7 +103,7 @@ background-size: cover;">
                 <!-- Text input-->
                 <div class="form-group">
                     <div class="col-12">
-                        <input disabled id="textinput " name="Service " type="text " placeholder="Service " class="form-control input-md position_service" style="width: 280px">
+                        <input id="textinput " name="Service " type="text " placeholder="Service " class="form-control input-md position_service" style="width: 280px">
 
                     </div>
                 </div>
@@ -102,46 +111,46 @@ background-size: cover;">
                     <div class="form-group col-6" style="width: 100vw;">
                         <!-- Text input-->
                         <div class="col-8 ">
-                            <input disabled id="textinput " name="Poste " type="text " placeholder="Poste " class="form-control input-md position_poste">
+                            <input id="textinput " name="Poste " type="text " placeholder="Poste " class="form-control input-md position_poste">
 
                         </div>
                         <div class="col-8">
-                            <input disabled id="textinput " name="Date de naissance " type="text " placeholder="Date de naissance " class="form-control input-md position_date">
+                            <input id="textinput " name="Date de naissance " type="text " placeholder="Date de naissance " class="form-control input-md position_date">
 
                         </div>
                         <div class="col-8">
-                            <input disabled id="textinput " name="Numéro de sécurité sociale " type="text " placeholder="Adresse" class="form-control input-md position_adresse">
+                            <input id="textinput " name="Numéro de sécurité sociale " type="text " placeholder="Adresse" class="form-control input-md position_adresse">
 
                         </div>
                         <div class="col-8">
-                            <input disabled id="textinput " name="Date de naissance " type="text " placeholder="Salaire" class="form-control input-md position_salaire">
+                            <input id="textinput " name="Date de naissance " type="text " placeholder="Salaire" class="form-control input-md position_salaire">
 
                         </div>
                         <div class="col-8">
-                            <input disabled id="textinput " name="Date de naissance " type="text " placeholder="Dernier Salaire" class="form-control input-md position_dernier_salaire">
+                            <input id="textinput " name="Date de naissance " type="text " placeholder="Dernier Salaire" class="form-control input-md position_dernier_salaire">
 
                         </div>
                     </div>
                     <div class="form-group col-6" style="width: 100vw;">
                         <!-- Text input-->
                         <div class="col-8 ">
-                            <input disabled id="textinput " name="Date de naissance " type="text " placeholder="Numéro de sécurité sociale" class="form-control input-md position_sécu">
+                            <input id="textinput " name="Date de naissance " type="text " placeholder="Numéro de sécurité sociale" class="form-control input-md position_sécu">
 
                         </div>
                         <div class="col-8 ">
-                            <input disabled id="textinput " name="Numéro de sécurité sociale " type="text " placeholder="Tel" class="form-control input-md position_tel">
+                            <input id="textinput " name="Numéro de sécurité sociale " type="text " placeholder="Tel" class="form-control input-md position_tel">
 
                         </div>
                         <div class="col-8 ">
-                            <input disabled id="textinput " name="Numéro de sécurité sociale " type="text " placeholder="Mail" class="form-control input-md position_mail">
+                            <input id="textinput " name="Numéro de sécurité sociale " type="text " placeholder="Mail" class="form-control input-md position_mail">
 
                         </div>
                         <div class="col-8 ">
-                            <input disabled id="textinput " name="Numéro de sécurité sociale " type="text " placeholder="Contrat" class="form-control input-md position_contrat">
+                            <input id="textinput " name="Numéro de sécurité sociale " type="text " placeholder="Contrat" class="form-control input-md position_contrat">
 
                         </div>
                         <div class="col-8 ">
-                            <input disabled id="textinput " name="Numéro de sécurité sociale " type="text " placeholder="Prochain Salaire" class="form-control input-md position_prochain_salaire">
+                            <input id="textinput " name="Numéro de sécurité sociale " type="text " placeholder="Prochain Salaire" class="form-control input-md position_prochain_salaire">
 
                         </div>
                     </div>
@@ -178,3 +187,11 @@ background-size: cover;">
 </body>
 
 </html>
+
+<?php
+}
+else
+{
+    header('Location: connexion.php');
+}
+?>
