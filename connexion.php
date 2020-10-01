@@ -11,7 +11,8 @@ if(isset($_POST['connexion']))
     {
         $requser = $bdd->prepare("SELECT * FROM membres WHERE email = ? AND password = ?");
         $requser->execute(array($emailconnect, $passwordconnect));
-        $userexist = $requser->rowCount();
+		$userexist = $requser->rowCount();
+		die($userexist);
         if($userexist == 1)
         {
             $userinfo = $requser->fetch();
