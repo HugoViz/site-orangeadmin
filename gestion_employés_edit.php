@@ -47,11 +47,11 @@ background-size: cover;">
     </ul>
     </ul>
     <form class="form-horizontal">
-        <fieldset class=position_buttons>
+    <fieldset class=position_buttons>
             <!-- Search input-->
             <div class="form-group">
-                <div>
-                    <input id="searchinput" name="searchinput" type="search" placeholder="Rechercher un employé..." class="form-control input-md position_search" style="border-color: white; color:black">
+                <div class="col-md-12">
+                    <input style=opacity:0.66 id="searchinput" name="searchinput" type="search" placeholder="Rechercher un poste ou un service..." class="form-control input-md position_search" style="border-color: white; color:black">
                 </div>
             </div>
         </fieldset>

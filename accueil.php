@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/test.css">
+    
 <style>
 ul {
     list-style-type: none;
@@ -58,11 +59,12 @@ background-size: cover;">
     width="100" height="100" padding=></a></div>
 <div style="position:absolute; left:72.5%; top:50%;"><a class="active" href="statistiques.php"><img src="images/Stats.jpg"
     width="100" height="100" padding=></a></div>
-<div id="container">
-   <div id="main"></div>
-   <div id="footer">Designed by HV & AB & YB<div style=padding-left:92%>© Orange 2020</div></div>
-
-</div>
+    <div id="container">
+            <div style="position: absolute" id="footer" class="row" style="margin: 0; height: 2vw">
+                <div class="col-6">Designed by HV & AB & YB</div>
+                <div class="col-6" style="text-align: end;" margin-top=00px>© Orange 2020</div>
+            </div>
+        </div>
 
 </body>
 </html>

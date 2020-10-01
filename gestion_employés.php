@@ -53,8 +53,8 @@ background-size: cover;">
         <fieldset class=position_buttons>
             <!-- Search input-->
             <div class="form-group">
-                <div class="col-md-13">
-                    <input id="searchinput" name="searchinput" type="search" placeholder="Rechercher un employé..." class="form-control input-md position_search" style="border-color: white; color:black">
+                <div class="col-md-12">
+                    <input style=opacity:0.66 id="searchinput" name="searchinput" type="search" placeholder="Rechercher un poste ou un service..." class="form-control input-md position_search" style="border-color: white; color:black">
                 </div>
             </div>
             <div class="row" style="width: 100vw;">
