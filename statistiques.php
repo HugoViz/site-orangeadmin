@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+$bdd = new PDO('mysql:host=localhost;dbname=espace_membre', 'root', 'admin');
+
+if(!empty($_SESSION['id']))
+{
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -152,3 +161,11 @@ background-size: cover;">
 </body>
 
 </html>
+
+<?php
+}
+else
+{
+    header('Location: connexion.php');
+}
+?>
