@@ -76,7 +76,7 @@ if(isset($erreur))
 				<span class="login100-form-title p-b-41">
 					Connexion
 				</span>
-				<form class="login100-form validate-form p-b-33 p-t-5" action="connexion.php" method="POST">
+				<form class="login100-form validate-form p-b-33 p-t-5" action="connexion.php" method="POST" style= "padding-bottom:1px;">
 
 					<div class="wrap-input100 validate-input" data-validate = "Enter username">
 						<input class="input100" type="text" name="emailconnect" placeholder="Email">
@@ -89,12 +89,17 @@ if(isset($erreur))
 					</div>
 
 					<div class="container-login100-form-btn m-t-32">
-						<button class="login100-form-btn" href="accueil.html" name="connexion">
+						<button class="login100-form-btn" href="accueil.html" name="connexion" style="margin-top:-4%; margin-bottom:1%">
 							Se connecter
 						</button>
 					</div>
-
+				<div class="form-group position_button1">
+                        <div class="col-12">
+                            <a id="singlebutton" name="to-inscription" class="btn btn-primary login100-form-btn active" href="inscription.php" style="width: 150px;background-color: orangered;border-color: orange; margin-left: 27.7%; margin-top:2%;">Inscription</a>
+                        </div>
+                    </div>
 				</form>
+
 			</div>
 		</div>
 	</div>

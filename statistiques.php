@@ -101,7 +101,7 @@ background-size: cover;">
                                 </h3>
                             </p>
                             <h3>
-                                <p style=" text-align: center; background: yellow; width: 90%; margin: auto; border-radius: 10px 10px 10px 10px; color: black; ">...</p>
+                                <p style=" text-align: center; background: yellow; width: 90%; margin: auto; border-radius: 10px 10px 10px 10px; color: black; ">8333.33€</p>
                             </h3>
                         </div>
                     </div>
@@ -112,7 +112,7 @@ background-size: cover;">
                                 </p>
                             </h3>
                             <h3>
-                                <p style=" text-align: center; background: yellow; width: 90%; margin: auto; border-radius: 10px 10px 10px 10px; color: black; ">...</p>
+                                <p style=" text-align: center; background: yellow; width: 90%; margin: auto; border-radius: 10px 10px 10px 10px; color: black; ">5199.83€</p>
                             </h3>
                         </div>
                 </div>
@@ -134,7 +134,7 @@ background-size: cover;">
                                 </h3>
                             </p>
                             <h3>
-                                <p style=" text-align: center; background: orange; width: 90%; margin: auto; border-radius: 10px 10px 10px 10px; color: black; ">...</p>
+                                <p style=" text-align: center; background: orange; width: 90%; margin: auto; border-radius: 10px 10px 10px 10px; color: black; ">100000.00€</p>
                             </h3>
                         </div>
                     </div>
@@ -145,7 +145,7 @@ background-size: cover;">
                                 </p>
                             </h3>
                             <h3>
-                                <p style=" text-align: center; background: orange; width: 90%; margin: auto; border-radius: 10px 10px 10px 10px; color: black; ">...</p>
+                                <p style=" text-align: center; background: orange; width: 90%; margin: auto; border-radius: 10px 10px 10px 10px; color: black; ">62398.00€</p>
                             </h3>
                         </div>
                     </div>
