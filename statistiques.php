@@ -76,10 +76,9 @@ background-size: cover;">
         <div class="row" style="width: 100vw;">
 
 
-            <section class="row" style="width: 100vw">
-                <div class="col-6 row" style="margin-left:3%">
+            <section class="col-12 row" style="width: 100vw;max-width: 100%;">
                     <div class="col-12">
-                        <select style="width:400px; margin-left: 18%; " id="selectbasic" name="selectbasic" class="form-control position_selec_mois">
+                        <select style="width:400px;margin: auto;margin-top: 3%;margin-bottom: -3%;" id="selectbasic" name="selectbasic" class="form-control position_selec_mois">
                         <option value="1">Sélectionnez un mois...</option>
                         <option value="2">janvier</option>
                         <option value="3">février</option>
@@ -106,7 +105,7 @@ background-size: cover;">
                             </h3>
                         </div>
                     </div>
-                    <div class="col-12" style="padding: 0 25%; margin-bottom: 7%">
+                    <div class="col-12" style="padding: 0 25%; margin-bottom: 7%; margin-top: -3%; margin-bottom:3%">
                         <div style=" color: white;background: black;padding: 5%; text-align: center;">
                             <h3>
                                 <p style="margin-top: 7%">Dépense Mensuelle nette
@@ -116,11 +115,9 @@ background-size: cover;">
                                 <p style=" text-align: center; background: yellow; width: 90%; margin: auto; border-radius: 10px 10px 10px 10px; color: black; ">...</p>
                             </h3>
                         </div>
-                    </div>
                 </div>
-                <div class="col-6 row">
                     <div class="col-12">
-                        <select style="width:400px; margin-left: 18%; " id="selectbasic" name="selectbasic" class="form-control position_selec_mois">
+                        <select style="width:400px; margin:auto; margin-bottom:-3%; " id="selectbasic" name="selectbasic" class="form-control position_selec_mois">
                         <option value="1">Sélectionnez une année...</option>
                         <option value="2">2019</option>
                         <option value="3">2018</option>
@@ -131,7 +128,7 @@ background-size: cover;">
                     </select>
                     </div>
                     <div class="col-12" style="padding: 0 25%; margin-top: 5%; margin-bottom: 7%;">
-                        <div style="; color: white;background: black;padding: 5%; text-align: center;">
+                        <div style="; color: white;background: black;padding: 5%; text-align: center; margin-bottom:-6%;">
                             <p>
                                 <h3>Dépense Annuelle brute
                                 </h3>
@@ -141,7 +138,7 @@ background-size: cover;">
                             </h3>
                         </div>
                     </div>
-                    <div class="col-12" style="padding: 0 25%; margin-bottom: 7%">
+                    <div class="col-12" style="padding: 0 25%; margin-bottom: 5%">
                         <div style=" color: white;background: black;padding: 5%; text-align: center;">
                             <h3>
                                 <p style="margin-top: 7%">Dépense Annuelle nette
@@ -152,7 +149,6 @@ background-size: cover;">
                             </h3>
                         </div>
                     </div>
-                </div>
             </section>
         </div>
     </form>
